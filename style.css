@@ -12,3 +12,35 @@ a.item {
 	width: 70px;
 	height: 30px;
 }
+
+div.card {
+	background: #eee;
+	overflow: hidden;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	height: 100px;
+	width: 200px;
+}
+
+.card-body {
+    padding: 15px;
+    color: #555;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    background: orange;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.cards {
+	display: flex;
+	justify-content: center;
+	gap: 8px;
+	flex-wrap: wrap;
+}
